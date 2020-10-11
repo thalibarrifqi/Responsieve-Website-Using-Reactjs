@@ -9,8 +9,20 @@ import Film from './pages/Film/Film'
 import Sport from './pages/Sport/Sport'
 import Tech from './pages/Tech/Tech'
 import About from './pages/About/About'
+import ReactGA from 'react-ga'
+
+function initializeAnalytics(){
+  ReactGA.initialize("UA-180299465-1")
+  ReactGA.pageview('/')
+  ReactGA.pageview('/music')
+  ReactGA.pageview('/film')
+  ReactGA.pageview('/sport')
+  ReactGA.pageview('/tech')
+  ReactGA.pageview('/about')
+}
 
 function App() {
+  initializeAnalytics()
   return (
     <Router>
       <GlobalStyle />
