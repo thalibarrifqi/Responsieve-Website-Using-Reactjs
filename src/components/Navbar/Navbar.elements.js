@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {FiArrowUp} from 'react-icons/fi'
+import {GiStairsGoal} from 'react-icons/gi'
 import {Link} from 'react-router-dom'
 import {Container} from '../../globalStyles'
 
@@ -33,7 +33,7 @@ display: flex;
 align-items: center;
 `
 
-export const NavIcon = styled(FiArrowUp)`
+export const NavIcon = styled(GiStairsGoal)`
 margin-right: 0.5rem;
 `
 export const MobileIcon = styled.div`

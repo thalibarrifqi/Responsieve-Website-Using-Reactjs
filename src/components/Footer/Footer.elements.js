@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
-import {FiArrowUp} from 'react-icons/fi'
+import {GiStairsGoal} from 'react-icons/gi'
 
 export const FooterContainer = styled.div`
   background-color: #101522;
@@ -137,7 +137,7 @@ export const SocialLogo = styled(Link)`
   margin-bottom: 16px;
 `;
 
-export const SocialIcon = styled(FiArrowUp)`
+export const SocialIcon = styled(GiStairsGoal)`
   margin-right: 10px;
 `;
 
