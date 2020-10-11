@@ -38,7 +38,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'Film!',
     headline: 'It is not our abilities that show what we truly are… it is our choices. – Harry Potter',
-    description: 'some of these films make me want to amnesia in order to get the sensation of the "first impression" when watching this film',
+    description: 'I really enjoy watching this film no matter how many times I watch it',
     buttonLabel: 'More',
     imgStart: '',
     img: require('../../images/3.svg'),
@@ -53,7 +53,7 @@ export const homeObjOne = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Sport!',
-    headline: 'Everyone likes to watch sports, but not everyone likes sports',
+    headline: 'Everyone likes to watch sports, but not everyone does sports',
     description: 'these people impressed me',
     buttonLabel: 'More',
     imgStart: 'start',
@@ -62,12 +62,28 @@ export const homeObjOne = {
     start: ''
   };
 
-  export const homeObjSix = {
+  export const homeObjFive =  {
     lightBg: false,
     primary: true,
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
+    topLine: 'Tech!',
+    headline: 'Technology is a catalyst for other sciences',
+    description: 'some of my interests',
+    buttonLabel: 'More',
+    imgStart: '',
+    img: require('../../images/6.svg'),
+    alt: 'Image',
+    start: ''
+  };
+
+  export const homeObjSix = {
+    lightBg: true,
+    primary: false,
+    lightTopLine: false,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'About me!',
     headline: 'Juts an ordinary person',
     description: 'the kindest person is the one who is useful to others',
@@ -76,20 +92,4 @@ export const homeObjOne = {
     img: require('../../images/4.svg'),
     alt: 'Image',
     start: 'true'
-  };
-
-  export const homeObjFive = {
-    lightBg: true,
-    primary: false,
-    lightTopLine: false,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'Tech!',
-    headline: 'Technology is a catalyst for other sciences',
-    description: 'some of my interests',
-    buttonLabel: 'More',
-    imgStart: 'start',
-    img: require('../../images/6.svg'),
-    alt: 'Image',
-    start: ''
   };

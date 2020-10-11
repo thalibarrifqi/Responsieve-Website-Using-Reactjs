@@ -33,7 +33,7 @@ function Film() {
                 <FilmCardFeatures>
                   <FilmCardFeature>The James Bond series focuses on a fictional British Secret Service agent created in 1953 by writer Ian Fleming, who featured him in twelve novels and two short-story collections. The character also known by the code number 007.</FilmCardFeature>
                 </FilmCardFeatures>
-                <Button primary>More</Button>
+                {/* <Button primary>More</Button> */}
               </FilmCardInfo>
             </FilmCard>
 
@@ -44,7 +44,7 @@ function Film() {
                 <FilmCardFeatures>
                   <FilmCardFeature>Little Forest is a Japanese slice of life manga series written and illustrated by Daisuke Igarashi. It was adapted into a two-part Japanese live action film. Part 1 film is "Little Forest: Summer/Autumn" and the part 2 film is "Little Forest: Winter/Spring".</FilmCardFeature>
                 </FilmCardFeatures>
-                <Button primary>More</Button>
+                {/* <Button primary>More</Button> */}
               </FilmCardInfo>
             </FilmCard>
 
@@ -55,7 +55,7 @@ function Film() {
                 <FilmCardFeatures>
                   <FilmCardFeature>Always...</FilmCardFeature>
                 </FilmCardFeatures>
-                <Button primary>More</Button>
+                {/* <Button primary>More</Button> */}
               </FilmCardInfo>
             </FilmCard>
 

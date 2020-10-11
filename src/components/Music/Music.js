@@ -36,7 +36,7 @@ function Music() {
                 <MusicCardFeatures>
                   <MusicCardFeature>The Beatles were an English rock band formed in Liverpool in 1960. The line-up of John Lennon, Paul McCartney, George Harrison and Ringo Starr led the band to be regarded as the foremost and most influential in history.</MusicCardFeature>
                 </MusicCardFeatures>
-                <Button primary>More</Button>
+                {/* <Button primary>More</Button> */}
               </MusicCardInfo>
             </MusicCard>
 
@@ -47,7 +47,7 @@ function Music() {
                 <MusicCardFeatures>
                   <MusicCardFeature>U2 are an Irish rock band from Dublin, formed in 1976. The group consists of Bono (vocals), the Edge (guitar and backing vocals), Adam Clayton (bass guitar), and Larry Mullen Jr. (drums and percussion).</MusicCardFeature>
                 </MusicCardFeatures>
-                <Button primary>More</Button>
+                {/* <Button primary>More</Button> */}
               </MusicCardInfo>
             </MusicCard>
 
@@ -58,7 +58,7 @@ function Music() {
                 <MusicCardFeatures>
                   <MusicCardFeature>The Cranberries were an Irish rock band formed in Limerick, Ireland in 1989 by lead singer Niall Quinn, guitarist Noel Hogan, bassist Mike Hogan, and drummer Fergal Lawler. Quinn was replaced as lead singer by Dolores O'Riordan in 1990.</MusicCardFeature>
                 </MusicCardFeatures>
-                <Button primary>More</Button>
+                {/* <Button primary>More</Button> */}
               </MusicCardInfo>
             </MusicCard>
 
@@ -73,7 +73,7 @@ function Music() {
                 <MusicCardFeatures>
                   <MusicCardFeature>Paramore is an American rock band from Franklin, Tennessee, formed in 2004. The band currently consists of lead vocalist Hayley Williams, guitarist Taylor York and drummer Zac Farro.</MusicCardFeature>
                 </MusicCardFeatures>
-                <Button primary>More</Button>
+                {/* <Button primary>More</Button> */}
               </MusicCardInfo>
             </MusicCard>
 
@@ -84,7 +84,7 @@ function Music() {
                 <MusicCardFeatures>
                   <MusicCardFeature>Dewa 19 (Pronounced in Indonesian Dewa sembilan belas), often referred to as Dewa, were an Indonesian rock band originating from Surabaya, East Java. The band was formed in 1986 there have been a number of changes to the lineup and finally they were disbanded in 2011. Their last members lineup were: Ahmad Dhani, Andra, Agung Yudha, Yuke, & Once.</MusicCardFeature>
                 </MusicCardFeatures>
-                <Button primary>More</Button>
+                {/* <Button primary>More</Button> */}
               </MusicCardInfo>
             </MusicCard>
 
@@ -95,7 +95,7 @@ function Music() {
                 <MusicCardFeatures>
                   <MusicCardFeature>Barasuara is an Indonesian Alternative Rock band consists of Iga Massardi (Vocal / Guitar), Gerald Situmorang (Bass), TJ Kusuma (Guitar), Asteriska (Vocal), Puti Chitara (Vocal) and Marco Steffiano (Drum).</MusicCardFeature>
                 </MusicCardFeatures>
-                <Button primary>More</Button>
+                {/* <Button primary>More</Button> */}
               </MusicCardInfo>
             </MusicCard>
           

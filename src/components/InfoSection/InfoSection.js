@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {InfoSec} from './InfoSection.elements' 
 import {Link} from 'react-router-dom'
 import {Container, Button} from '../../globalStyles'
@@ -16,6 +16,7 @@ import {
 const InfoSection = ({
     primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
     buttonLabel, description, headline, lightText, topLine, img, alt, start}) => {
+
         return (
         <>
         <InfoSec lightBg={lightBg}>
@@ -26,10 +27,10 @@ const InfoSection = ({
                             <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                             <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                            <Link to='/about'></Link>
+                            {/* <Link to='/'></Link>
                             <Button big fontBig primary={primary}>
                                 {buttonLabel}
-                            </Button>
+                            </Button> */}
                         </TextWrapper>
                     </InfoColumn>
                     <InfoColumn>

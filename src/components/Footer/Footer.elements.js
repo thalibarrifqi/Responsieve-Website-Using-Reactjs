@@ -106,6 +106,7 @@ export const FooterLink = styled(Link)`
     color: #0467fb;
     transition: 0.3s ease-out;
   }
+  text-align: center;
 `;
 
 export const SocialMedia = styled.section`
