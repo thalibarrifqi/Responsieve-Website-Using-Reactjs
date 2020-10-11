@@ -97,7 +97,7 @@ export const AboutCardFeatures = styled.ul`
 export const AboutCardFeature = styled.li`
   margin-bottom: 10px;
   color: #ffaa;
-  text-align: justify;
+  text-align: center;
 `;
 
 export const AboutCardImg = styled.div`
