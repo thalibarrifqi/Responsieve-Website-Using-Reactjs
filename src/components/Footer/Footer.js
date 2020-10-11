@@ -80,7 +80,6 @@ const Footer = () => {
                         <SocialIcon />
                         UPPERSTAIRS
                     </SocialLogo>
-                    <WebsiteRights>Thalibar Rifqi 2020</WebsiteRights>
                     <SocialIconLink href='https://www.facebook.com/thalibarrifqi/' target="_blank" 
                     aria-label="Facebook">
                         <FaFacebook />
@@ -105,8 +104,14 @@ const Footer = () => {
                     aria-label="Photoshop">
                         <DiPhotoshop />
                     </SocialIconLink>
+                </SocialMediaWrap> 
+            </SocialMedia>
+          
+                <SocialMediaWrap> 
+                   
                 </SocialMediaWrap>
-            </SocialMedia>           
+                <WebsiteRights>Thalibar Rifqi 2020 - Build with React App</WebsiteRights>
+           
         </FooterContainer>
     )
 }
