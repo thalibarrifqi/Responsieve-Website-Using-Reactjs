@@ -3,7 +3,7 @@ import { Button } from '../../globalStyles';
 import { IconContext } from 'react-icons/lib';
 import beatles from '../../images/Beatles/beatles.jpg';
 import u2 from '../../images/U2/u2.jpg';
-import cranberries from '../../images/Cranberries/cranberries2.jpg';
+import cranberries from '../../images/Cranberries/cranberries.jpg';
 import paramore from '../../images/Paramore/paramore.jpg';
 import dewa from '../../images/Dewa/dewa.jpg';
 import barasuara from '../../images/Barasuara/barasuara.jpg';
