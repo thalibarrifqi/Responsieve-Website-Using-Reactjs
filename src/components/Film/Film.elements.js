@@ -90,6 +90,7 @@ export const FilmCardFeatures = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: justify;
   color: #a9b3c1;
 `;
 
@@ -99,6 +100,8 @@ export const FilmCardFeature = styled.li`
 
 export const FilmCardImg = styled.div`
   background-image: url(${props => props.img});
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100%;
 `;

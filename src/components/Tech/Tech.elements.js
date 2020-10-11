@@ -91,6 +91,7 @@ export const TechCardFeatures = styled.ul`
   flex-direction: column;
   align-items: center;
   color: #a9b3c1;
+  text-align: justify;
 `;
 
 export const TechCardFeature = styled.li`
@@ -99,6 +100,8 @@ export const TechCardFeature = styled.li`
 
 export const TechCardImg = styled.div`
   background-image: url(${props => props.img});
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100%;
 `;

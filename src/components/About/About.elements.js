@@ -96,11 +96,14 @@ export const AboutCardFeatures = styled.ul`
 
 export const AboutCardFeature = styled.li`
   margin-bottom: 10px;
-  color: #ffaa
+  color: #ffaa;
+  text-align: justify;
 `;
 
 export const AboutCardImg = styled.div`
   background-image: url(${props => props.img});
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100%;
 `;
@@ -191,6 +194,8 @@ export const GalleryCardFeatures = styled.ul`
 
 export const GalleryCardImg = styled.div`
   background-image: url(${props => props.img});
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100%;
 `;
