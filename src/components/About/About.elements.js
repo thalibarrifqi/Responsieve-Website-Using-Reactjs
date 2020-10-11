@@ -166,7 +166,8 @@ margin-top: 100px;
   }
 
   @media screen and (max-width: 960px) {
-    width: 90%;
+    width: 360px;
+    height: 225px;
 
     &:hover {
       transform: none;
@@ -198,4 +199,9 @@ export const GalleryCardImg = styled.div`
   background-size: cover;
   width: 100%;
   height: 100%;
+
+  @media screen and (max-width: 960px) {
+    width: 360px;
+    height: 225px;
+  }
 `;
