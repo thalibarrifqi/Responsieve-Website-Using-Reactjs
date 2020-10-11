@@ -33,6 +33,7 @@ export const MusicContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 
   @media screen and (max-width: 960px) {
     display: flex;

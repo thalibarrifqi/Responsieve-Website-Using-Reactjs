@@ -1,12 +1,15 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
 import { IconContext } from 'react-icons/lib';
-import beatles from '../../images/Beatles/beatles.jpg';
-import u2 from '../../images/U2/u2.jpg';
+import beatles from '../../images/Beatles/beatles2.jpg';
+import u2 from '../../images/U2/u22.jpg';
 import cranberries from '../../images/Cranberries/cranberries.jpg';
 import paramore from '../../images/Paramore/paramore.jpg';
-import dewa from '../../images/Dewa/dewa.jpg';
-import barasuara from '../../images/Barasuara/barasuara.jpg';
+import dewa from '../../images/Dewa/dewa19.jpg';
+import barasuara from '../../images/Barasuara/barasuara1.jpg';
+import queen from '../../images/Queen/queen.jpg';
+import taeyeon from '../../images/Taeyeon/taeyeon.jpg';
+import taylor from '../../images/Taylor/taylor.jpg';
 import {
   MusicSection,
   MusicWrapper,
@@ -100,6 +103,43 @@ function Music() {
             </MusicCard>
           
           </MusicContainer>
+
+          <MusicContainer>
+
+            <MusicCard to='/music'>
+              <MusicCardInfo>
+                <MusicCardImg img={taeyeon} />
+                <MusicCardPlan>Taeyeon</MusicCardPlan>
+                <MusicCardFeatures>
+                  <MusicCardFeature>Kim Tae-yeon, known mononymously as Taeyeon, is a South Korean singer. She has been a member of SM Entertainment's girl group Girls' Generation since 2007,She released her debut album I in 2015.</MusicCardFeature>
+                </MusicCardFeatures>
+                {/* <Button primary>More</Button> */}
+              </MusicCardInfo>
+            </MusicCard>
+
+            <MusicCard to='/music'>
+              <MusicCardInfo>
+                <MusicCardImg img={taylor} />
+                <MusicCardPlan>Taylor Swift</MusicCardPlan>
+                <MusicCardFeatures>
+                  <MusicCardFeature>Taylor Alison Swift is an American singer-songwriter. Her narrative songwriting, which often centers around her personal life, has received widespread critical plaudits and media coverage. Her 2006 eponymous debut studio album was the longest-charting album of the 2000s on the Billboard 200.</MusicCardFeature>
+                </MusicCardFeatures>
+                {/* <Button primary>More</Button> */}
+              </MusicCardInfo>
+            </MusicCard>
+
+            <MusicCard to='/music'>
+              <MusicCardInfo>
+                <MusicCardImg img={queen} />
+                <MusicCardPlan>Queen</MusicCardPlan>
+                <MusicCardFeatures>
+                  <MusicCardFeature>Queen are a British rock band formed in London in 1970. Their classic line-up was Freddie Mercury (lead vocals, piano), Brian May (guitar, vocals), Roger Taylor (drums, vocals) and John Deacon (bass).</MusicCardFeature>
+                </MusicCardFeatures>
+                {/* <Button primary>More</Button> */}
+              </MusicCardInfo>
+            </MusicCard>
+
+            </MusicContainer>
 
         </MusicWrapper>
       </MusicSection>
