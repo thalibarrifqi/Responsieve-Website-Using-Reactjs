@@ -53,7 +53,7 @@ export const homeObjOne = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Sport!',
-    headline: 'Everyone likes to watch sports, but not everyone does sports',
+    headline: 'Sport has the power to change the world. It has the power to inspire and unite people in a way that little else does. - Nelson Mandela',
     description: 'these people impressed me',
     buttonLabel: 'More',
     imgStart: 'start',

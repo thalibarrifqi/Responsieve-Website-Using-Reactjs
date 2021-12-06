@@ -110,7 +110,7 @@ const Footer = () => {
                 <SocialMediaWrap> 
                    
                 </SocialMediaWrap>
-                <WebsiteRights>Thalibar Rifqi 2020 - Build with React App</WebsiteRights>
+                <WebsiteRights>Thalibar Rifqi - 2020</WebsiteRights>
            
         </FooterContainer>
     )
